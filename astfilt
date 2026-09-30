@@ -1,0 +1,6 @@
+#!/usr/bin/sed -f
+# Make `clang -Xclang -ast-dump` output prettier
+s.|-.├─.
+s.|.│.g
+s.`.╰.
+s.-.─.g

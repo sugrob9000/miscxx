@@ -1,0 +1,16 @@
+.*
+!.gitignore
+!.clangd
+
+[a-z].cpp
+[a-z].c
+
+*.o
+*.out
+perf.data
+perf.data.old
+gcm.cache/
+
+# gcc -fdump-tree etc.
+*.cpp.*
+*.c.*

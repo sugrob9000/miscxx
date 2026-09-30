@@ -1,0 +1,9 @@
+#!/usr/bin/sed -f
+# Make `objdump --visualize-jumps` output prettier
+s.>\(\x1b\[[0-9;]\+m\)\?-.🯛─.
+s.-\(\x1b\[[0-9;]\+m\)\?>.─→.
+s.+.├.
+s.[,/].╭.
+s.['\\].╰.
+s.|.│.g
+s.-.─.g
