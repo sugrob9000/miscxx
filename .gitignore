@@ -2,13 +2,14 @@
 !.gitignore
 !.clangd
 
+# single-letter files are for random experimentation
 [a-z].cpp
 [a-z].c
 
 *.o
 *.out
 perf.data
-perf.data.old
+perf.data.*
 gcm.cache/
 
 # gcc -fdump-tree etc.
